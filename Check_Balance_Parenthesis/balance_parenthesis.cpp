@@ -28,6 +28,7 @@ class Solution
         }
 };
 
+#ifdef TESTING
 int main()
 {
     Solution Sol;
@@ -40,3 +41,4 @@ int main()
     cout << "Output is " << Sol.isValid("{(})") << "\n";
     return 0;
 }
+#endif
