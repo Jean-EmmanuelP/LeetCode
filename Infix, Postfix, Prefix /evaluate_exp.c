@@ -1,3 +1,4 @@
+/*
 Note :
 
 Postfix and Prefix are more readeable for machine while 
@@ -20,3 +21,6 @@ This is the result !
 Concept :
 Last in, first out ! 
 "LIFO structure" 
+*/
+
+/*IMPLEMENT THE CODE TODAY*/
