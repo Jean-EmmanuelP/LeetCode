@@ -4,6 +4,6 @@ class Solution
         vector<int> twoSum(vector<int>& nums, int target)
         {
             vector<int>vect;
-            int n=nums.size
+            int n=nums.size();
         }
 }
