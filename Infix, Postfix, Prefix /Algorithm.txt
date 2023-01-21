@@ -1,1 +1,3 @@
-Step of the algorithm
+Step of the algorithm:
+
+1. 
