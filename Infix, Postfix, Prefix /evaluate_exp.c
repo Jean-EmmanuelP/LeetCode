@@ -26,4 +26,4 @@ Last in, first out !
 
 /*IMPLEMENT THE CODE TODAY*/
 
-a+b*c*d
+a+b*c*d infix
