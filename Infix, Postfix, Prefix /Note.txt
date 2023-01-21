@@ -1,0 +1,8 @@
+Note :
+
+Postfix and Prefix are more readeable for machine while 
+Infix expression are more readeable for humans.
+infix expression : <operand><operator><operand>
+In the infix expression, the operator is between operand.
+postfix expression : <operand><operator> 
+In postfix expression the operator is at the right position of its operand.
