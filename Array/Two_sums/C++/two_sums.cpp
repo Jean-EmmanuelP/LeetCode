@@ -7,7 +7,8 @@ class Solution
             int n=nums.size();
             for (int i = 0; i< n; i++)
             {
-                for (int j = i+1; j < n;)
+                for (int j = i+1; j < n;j++)
+                
             }
         }
 }
