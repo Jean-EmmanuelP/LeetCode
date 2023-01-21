@@ -22,7 +22,8 @@ while true; do
         # If the states are different, add, commit, and push the changes
         git add .
         git commit -m "$commit_message"
-        git pushs
+        git push
     fi
 done
 
+#
