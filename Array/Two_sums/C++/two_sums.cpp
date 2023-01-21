@@ -11,7 +11,8 @@ class Solution
                 {
                     if (nums[i] + nums[j] == target)
                     {
-                        vect.push_back()
+                        vect.push_back(i);
+                        
                     }
                 }
             }
