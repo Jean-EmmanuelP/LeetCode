@@ -25,4 +25,3 @@ while true; do
         git push
     fi
 done
-
