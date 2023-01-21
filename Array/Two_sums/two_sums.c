@@ -1,8 +1,6 @@
 /* link to the problem : https://leetcode.com/problems/two-sum/ */
 
-/**
- * Note: The returned array must be malloced, assume caller calls free().
- */
+/* C Solutio*/
 
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     *returnSize = 2;
