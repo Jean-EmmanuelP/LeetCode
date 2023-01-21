@@ -1,3 +1,4 @@
+
 class Solution
 {
     public:
@@ -19,7 +20,7 @@ class Solution
             }
             return (vect);
         }
-}
+};
 
 #ifdef TESTING 
 
