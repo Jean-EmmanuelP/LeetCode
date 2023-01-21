@@ -28,4 +28,4 @@ Last in, first out !
 
 a+b*c*d infix
 result = a
-st = +
+st = 
