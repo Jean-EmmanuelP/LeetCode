@@ -1,5 +1,5 @@
 class Solution
 {
     public:
-        vector<int> twoSum
+        vector<int> twoSum(vector)
 }
