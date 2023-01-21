@@ -17,3 +17,6 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     }
     return (out);
 }
+
+#ifdef TESTING
+#endif
