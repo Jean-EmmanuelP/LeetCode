@@ -7,4 +7,5 @@ Step of the algorithm:
 	- Left Parenthesis : Push to st
 	- Right Parenthesis : Pop from st until left Parenthesis is found. Output the popped operators.
 	- Operator : If st is empty push x to st.
-		-> if st is empty, push x to st, else compare with st top
+		-> if st is empty, push x to st, else compare with st top.
+		
