@@ -4,4 +4,5 @@ Step of the algorithm:
 2. Do following for every character x from left to right
 3. If x is:
 	- Operand -> Output it
-	- Left Parenthesis : Push
+	- Left Parenthesis : Push to st
+	
