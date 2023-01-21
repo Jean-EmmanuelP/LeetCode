@@ -12,4 +12,4 @@ Step of the algorithm:
 		--> Lower precedence, pop st top and output until a higher precedence operator is found.
 		Then push s to st.
 		--> Equal precedence, use assocativity.
-		--> Pop and output ever
+4. Pop and Output everything from st.
