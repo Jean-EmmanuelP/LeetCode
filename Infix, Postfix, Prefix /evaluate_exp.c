@@ -27,5 +27,5 @@ Last in, first out !
 /*IMPLEMENT THE CODE TODAY*/
 
 a+b*c*d infix
-resuslt = a
-st = c
+result = a
+st = a
