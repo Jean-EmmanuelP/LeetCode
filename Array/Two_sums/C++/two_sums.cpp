@@ -5,6 +5,6 @@ class Solution
         {
             vector<int>vect;
             int n=nums.size();
-            for (int i = 0;)
+            for (int i = 0; i< n)
         }
 }
