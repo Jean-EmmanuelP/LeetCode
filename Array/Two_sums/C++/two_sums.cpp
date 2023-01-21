@@ -1,6 +1,9 @@
 #include <iostream>
 #include <stack>
-#include <map>class Solution
+#include <map>
+
+using namespace std;
+class Solution
 {
     public:
         vector<int> twoSum(vector<int>& nums, int target)
