@@ -7,7 +7,7 @@ class Solution
             int n=nums.size();
             for (int i = 0; i< n; i++)
             {
-                for (int)
+                for (int j = i+!)
             }
         }
 }
