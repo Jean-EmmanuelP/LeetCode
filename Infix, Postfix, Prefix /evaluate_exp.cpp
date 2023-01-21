@@ -102,7 +102,7 @@ void infixToPostfix(string s)
 // Driver's code
 int main()
 {
-	string exp = "a+b*(c^d-e)^(f+g*h)-i";
+	string exp = "a+b*c*d";
 
 	// Function call
 	infixToPostfix(exp);
