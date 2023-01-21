@@ -24,7 +24,7 @@ int main(void)
 {
     int *tab = {1, 2, 3, 4};
     int target = 3;
-    twoSums
+    twoSums()
     printf("")
 }
 
