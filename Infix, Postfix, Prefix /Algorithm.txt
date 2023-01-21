@@ -10,4 +10,5 @@ Step of the algorithm:
 		-> if st is empty, push x to st, else compare with st top.
 		--> Higher precedence (that st top), push to st
 		--> Lower precedence, pop st top and output until a higher precedence operator is found.
-		The
+		Then push s to st.
+		
