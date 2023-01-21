@@ -30,7 +30,7 @@ class Solution
 #ifdef TESTING 
 
 int main() {
-    vector<int> nums = {2, 7, 2, 15};
+    vector<int> nums = {11, 7, 2, 15};
     int target = 9;
     Solution s;
     vector<int> result = s.twoSum(nums, target);
