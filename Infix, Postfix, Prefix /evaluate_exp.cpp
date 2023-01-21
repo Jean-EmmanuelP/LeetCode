@@ -25,6 +25,3 @@ Last in, first out !
 */
 
 /*IMPLEMENT THE CODE TODAY*/
-
-/* C++ implementation to convert
-infix expression to postfix*/
