@@ -24,7 +24,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
 int main(void)
 {
-    int tab = {1, 2, 3, 4};
+    int tab[4] = {1, 2, 3, 4};
     int target = 3;
     int *returnSize;
     int *result = twoSum(tab, 4, target, returnSize);
