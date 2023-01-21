@@ -12,9 +12,11 @@ class Solution
                     if (nums[i] + nums[j] == target)
                     {
                         vect.push_back(i);
-                        vect.push_back(j)
+                        vect.push_back(j);
+                        break;
                     }
                 }
             }
+            return (vect)
         }
 }
