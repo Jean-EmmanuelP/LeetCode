@@ -29,7 +29,8 @@ int main(void)
     int *returnSize;
     returnSize = malloc(sizeof(int));
     int *result = twoSum(tab, 4, target, returnSize);
-    printf("Indices of the numbers that add up to the target value: %d and %d", result);
+    printf("Indices of the numbers that add up to the target value: %d and %d
+            ", result);
     return (0);
 }
 
