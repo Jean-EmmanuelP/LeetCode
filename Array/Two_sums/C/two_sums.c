@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdio.h>
+#include <stdlib.h>
 /* link to the problem : https://leetcode.com/problems/two-sum/ */
 
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
@@ -24,7 +24,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
 int main(void)
 {
-    int *tab = {1, 2, 3, 4};
+    int tab = {1, 2, 3, 4};
     int target = 3;
     int *returnSize;
     int *result = twoSum(tab, 4, target, returnSize);
