@@ -11,4 +11,4 @@ Step of the algorithm:
 		--> Higher precedence (that st top), push to st
 		--> Lower precedence, pop st top and output until a higher precedence operator is found.
 		Then push s to st.
-		
+		--> Equal precedence, use assocativity
