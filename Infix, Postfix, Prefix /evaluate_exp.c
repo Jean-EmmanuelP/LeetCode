@@ -7,6 +7,7 @@ infix expression : <operand><operator><operand>
 In the infix expression, the operator is between operand.
 postfix expression : <operand><operator> 
 In postfix expression the operator is at the right position of its operand.
+while the prefix expression is a the left position of its operand.
 
 
 How to calculate the postfix expression using a program ?
