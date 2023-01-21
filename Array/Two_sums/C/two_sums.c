@@ -22,7 +22,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize){
 
 int main(void)
 {
-    int *tab
+    int *tab = {1, 2, 3, 4}
 }
 
 #endif
