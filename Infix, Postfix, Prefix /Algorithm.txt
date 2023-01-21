@@ -6,3 +6,5 @@ Step of the algorithm:
 	- Operand -> Output it
 	- Left Parenthesis : Push to st
 	- Right Parenthesis : Pop from st until left Parenthesis is found. Output the popped operators.
+	- Operator : If st is empty push x to st.
+		-> 
