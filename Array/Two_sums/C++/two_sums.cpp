@@ -3,6 +3,7 @@ class Solution
     public:
         vector<int> twoSum(vector<int>& nums, int target)
         {
-            vector<int>vect
+            vector<int>vect;
+            int n=
         }
 }
