@@ -2,4 +2,6 @@ Step of the algorithm:
 
 1. Create an empty stack, st
 2. Do following for every character x from left to right
-3. 
+3. If x is:
+	- Operand 
+		->Output it
