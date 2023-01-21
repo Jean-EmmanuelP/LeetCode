@@ -5,4 +5,4 @@ Step of the algorithm:
 3. If x is:
 	- Operand -> Output it
 	- Left Parenthesis : Push to st
-	
+	- Right Parenthesis : Pop from st u
