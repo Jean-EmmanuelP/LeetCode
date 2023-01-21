@@ -22,4 +22,14 @@ class Solution
 }
 
 #ifdef TESTING 
+
+int main() {
+    vector<int> nums = {2, 7, 11, 15};
+    int target = 9;
+    Solution s;
+    vector<int> result = s.twoSum(nums, target);
+    cout << "Indices of the numbers that add up to the target value: " << result[0] << " and " << result[1] << endl;
+    return 0;
+}
+
 #endif
