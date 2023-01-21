@@ -8,4 +8,4 @@ Step of the algorithm:
 	- Right Parenthesis : Pop from st until left Parenthesis is found. Output the popped operators.
 	- Operator : If st is empty push x to st.
 		-> if st is empty, push x to st, else compare with st top.
-		-->
+		--> Higher precedence (that st top)
