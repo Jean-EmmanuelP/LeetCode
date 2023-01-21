@@ -1,5 +1,5 @@
+#include <stdio.h>
 /* link to the problem : https://leetcode.com/problems/two-sum/ */
-
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     *returnSize = 2;
     int *out = malloc(sizeof(int) * 2);
