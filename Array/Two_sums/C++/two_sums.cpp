@@ -17,6 +17,9 @@ class Solution
                     }
                 }
             }
-            return (vect)
+            return (vect);
         }
 }
+
+#ifdef TESTING 
+#endif
