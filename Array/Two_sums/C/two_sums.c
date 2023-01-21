@@ -27,6 +27,7 @@ int main(void)
     int *returnSize;
     int *result = twoSums(tab, 4, target, returnSize);
     printf("Indices of the numbers that add up to the target value: %d", result);
+    return (0);
 }
 
 #endif
