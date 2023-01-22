@@ -24,5 +24,7 @@ int removeElement(int* nums, int numsSize, int val){
 Note :
 
 The whole concept of this problem is to play 
-with to pointers to navigate threw the array 
+with to pointers to navigate threw the array
+without losing the importants information.
+
 */
