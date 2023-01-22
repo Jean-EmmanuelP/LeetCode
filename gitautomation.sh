@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the directory to watch for changes
-watch_dir="/home/jean-emmanuelperramant/Github/LeetCode"
+watch_dir="/mnt/nfs/homes/jperrama/Github/LeetCode"
 
 # Set the commit message
 commit_message="new commit"

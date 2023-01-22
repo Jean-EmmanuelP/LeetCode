@@ -1,17 +1,19 @@
 /*https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/*/
 
-int removeDuplicates(int* nums, int numsSize){
-    int k = 1, i = 1;
-    while (i < numsSize)
+int removeElement(int* nums, int numsSize, int val){
+    int r = 0, w = 0;
+    while (r < numsSize)
     {
-        if (nums[i] == nums[i-1])
-            i++;
+        if (nums[r] == val)
+        {
+            r++;
+        }
         else
         {
-            nums[k] = nums[i];
-            k++;
-            i++;
+            nums[w] = nums[r];
+            w++;
+            r++;
         }
     }
-    return (k);
+    return (w);
 }
