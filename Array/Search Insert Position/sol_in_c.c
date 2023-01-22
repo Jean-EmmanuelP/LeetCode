@@ -39,4 +39,8 @@ int searchInsert(int* nums, int numsSize, int target){
     return (numsSize);
 }
 
-/**/
+/*
+
+To solve this problem, I just 
+
+*/
