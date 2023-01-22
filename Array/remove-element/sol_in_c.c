@@ -19,3 +19,9 @@ int removeElement(int* nums, int numsSize, int val){
     }
     return (w);
 }
+
+/*
+Note :
+
+The whole concept of this problem is to 
+*/
