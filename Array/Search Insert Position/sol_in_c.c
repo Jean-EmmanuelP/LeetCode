@@ -12,12 +12,31 @@ You must write an algorithm with O(log n) runtime complexity.
 */
 
 int searchInsert(int* nums, int numsSize, int target){
-    for (int i = 0; i <= numsSize - 2; i++)
+    int number_before = 0, is_on = 1;
+    int number_after = 0;
+    while (number_before < numsSize)
     {
-        if (nums[i] == target)
-            return (i);
-        else if (nums[i] + 1 == target)
-            return (i + 1);
+        if (nums[0] > target)
+            return (0);
+        if (number_before <= numsSize - 2)
+            number_after = number_before + 1;
+        else
+            is_on = 0;
+        if (nums[number_before] == target)
+            return (number_before);
+        else if (is_on == 1 && nums[number_before] < target && nums[number_after] > target)
+            return (number_after);
+        else if (nums[number_before] + 1 == target)
+            return (number_before + 1);
+        else if (nums[number_before] - 1 == target)
+        {
+            if (number_before == 0)
+                return (0);
+            return (number_before - 1);
+        }
+        number_before++;
     }
     return (numsSize);
 }
+
+/**/
