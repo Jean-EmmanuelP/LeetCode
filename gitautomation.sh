@@ -12,7 +12,7 @@ while true; do
     current_state=$(find $watch_dir -type f -exec md5sum {} \;)
 
     # Sleep for a second before checking again
-    sleep 1
+    sleep 30m
 
     # Get the new state of the directory
     new_state=$(find $watch_dir -type f -exec md5sum {} \;)
