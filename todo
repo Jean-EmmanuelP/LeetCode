@@ -3,4 +3,4 @@ https://leetcode.com/problems/build-array-from-permutation/submissions/883616281
 https://leetcode.com/problems/concatenation-of-array/submissions/883618667/
 https://leetcode.com/problems/final-value-of-variable-after-performing-operations/submissions/883620392/
 https://leetcode.com/problems/shuffle-the-array/solutions/ : reflechir sur une autre solution, solution trouve non optimal, le faire sur le meme tableau serait mieux, regarder la video
- 
+https://leetcode.com/problems/running-sum-of-1d-array/ : content de la reflexion ! partir de la fin, voir les solutions plus optimales et calculer le O de ma fonction
